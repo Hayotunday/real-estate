@@ -10,7 +10,7 @@ const Listing = () => {
   return (
     <section
       id="listing-section"
-      className="w-full p-5 flex flex-col justify-center items-start"
+      className="w-full p-5 flex flex-col justify-center items-start scroll-mt-10"
     >
       <h1 className="text-4xl font-extrabold text-blue-950 tracking-wide text-center w-full mb-5">
         House listings

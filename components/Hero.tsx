@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="home-section"
-      className="w-full flex flex-row justify-around relative items-start p-10 overflow-hidden"
+      className="w-full flex flex-row justify-around relative items-start p-10 overflow-hidden scroll-mt-20"
     >
       <div className="w-1/3 flex flex-col gap-5">
         <h1 className="2xl:text-[72px] sm:text-[60px] text-[50px] font-extrabold text-blue-950 tracking-normal">
@@ -18,8 +18,10 @@ const Hero = () => {
       <div className="w-[500px] h-[500px] relative max-w-full max-h-screen  ">
         <Image
           alt="hero house"
-          src={"/images/house_2.png"}
+          src={"/images/house_4.png"}
           fill
+          priority
+          quality={100}
           className="object-contain"
         />
       </div>

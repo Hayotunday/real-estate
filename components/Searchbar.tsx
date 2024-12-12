@@ -10,7 +10,7 @@ interface SearchBarProps {
 const Searchbar = ({ value, onChangeValue }: SearchBarProps) => {
   return (
     <div className="relative w-full flex flex-row justify-center items-center">
-      <div className="w-1/2 flex flex-row justify-center items-center gap-5 bg-gray-50 rounded-full p-2 relative">
+      <div className="w-3/4 lg:w-1/2 flex flex-row justify-center items-center gap-5 bg-gray-50 rounded-full p-2 relative">
         <Input
           type="text"
           placeholder="Search location"

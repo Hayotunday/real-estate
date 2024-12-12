@@ -9,7 +9,7 @@ import FavoriteButton from "./FavoriteButton";
 export function HouseCard() {
   return (
     <Link href={"/listings/1"}>
-      <Card className="w-full h-[350px] bg-slate-100 rounded-xl shadow hover:shadow-lg">
+      <Card className="w-full h-[325px] bg-slate-100 rounded-xl shadow hover:shadow-lg">
         <CardContent className="w-full h-full rounded-xl p-0">
           <div className="relative w-full h-2/3 rounded-xl">
             <Image
@@ -17,6 +17,7 @@ export function HouseCard() {
               alt="house background"
               fill
               priority
+              quality={100}
               className="object-cover rounded-xl z-0"
             />
           </div>
